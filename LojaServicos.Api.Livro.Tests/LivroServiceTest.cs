@@ -64,6 +64,7 @@ namespace LojaServicos.Api.Livro.Tests
         [Fact]
         public async void GetLivros()
         {
+            // Teste unitário de livros
             System.Diagnostics.Debugger.Launch();
             //Emular a instância da persistência (E) - contextLivraria
 
