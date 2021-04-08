@@ -39,9 +39,7 @@ namespace LojaServicos.Api.Autor
                 .AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Novo>());
             services.AddDbContext<ContextoAutor>(options =>
             {
-                options.UseNpgsql(Configuration.GetConnectionString("connectionDatabase"),
-                    opt => opt.SetPostgresVersion(9,4)
-                    );
+                options.UseNpgsql(Configuration.GetConnectionString("connectionDatabase"));
             });
 
             services.AddMediatR(typeof(Novo.Manipulador).Assembly);

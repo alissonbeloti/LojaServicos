@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaServicos.Api.Autor", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaServicos.Api.Livro", "LojaServicos.Api.Livro\LojaServicos.Api.Livro.csproj", "{6BD273B3-F072-46A4-B042-ABBA985AEEFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaServicos.Api.CarrinhoCompras", "LojaServicos.Api.CarrinhoCompras\LojaServicos.Api.CarrinhoCompras.csproj", "{FCBE2756-FF35-42F0-8843-FF6E4DC707C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaServicos.Api.CarrinhoCompras", "LojaServicos.Api.CarrinhoCompras\LojaServicos.Api.CarrinhoCompras.csproj", "{FCBE2756-FF35-42F0-8843-FF6E4DC707C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaServicos.Api.Livro.Tests", "LojaServicos.Api.Livro.Tests\LojaServicos.Api.Livro.Tests.csproj", "{5CE9646E-9D20-4FAE-A416-444BE56BBA75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaServicos.Api.Livro.Tests", "LojaServicos.Api.Livro.Tests\LojaServicos.Api.Livro.Tests.csproj", "{5CE9646E-9D20-4FAE-A416-444BE56BBA75}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7C7E549D-3D74-46F8-86BA-F4A11F6EC082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5CE9646E-9D20-4FAE-A416-444BE56BBA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE9646E-9D20-4FAE-A416-444BE56BBA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE9646E-9D20-4FAE-A416-444BE56BBA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7E549D-3D74-46F8-86BA-F4A11F6EC082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7E549D-3D74-46F8-86BA-F4A11F6EC082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7E549D-3D74-46F8-86BA-F4A11F6EC082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7E549D-3D74-46F8-86BA-F4A11F6EC082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
