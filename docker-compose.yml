@@ -18,8 +18,15 @@ services:
       context: .
       dockerfile: LojaServicos.Api.CarrinhoCompras/Dockerfile
 
+  lojaservicos.api.gateway:
+    image: ${DOCKER_REGISTRY-}lojaservicosapigateway
+    build:
+      context: .
+      dockerfile: LojaServicos.Api.Gateway/Dockerfile
+
 networks:
   default:
     external:
        name: microservicenet
+
 
